@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PureTrails</title>
+    
+    
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="static/UI/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="static/UI/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="static/UI/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="static/UI/css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" style="color:orangered" >PureTrails</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Trail Locations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading" style="color:white" style="background-color:black"> <span style="background-color: darkolivegreen"> Save a trail today, save the environment tomorrow </span> </h1>
+                <hr>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Features</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons" style="color:green"></i>
+                        <h3>Accessibility</h3>
+                        <p class="text-muted">Cross-Platform compatibility with one common interface among operating system.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons" style="color:green"></i>
+                        <h3>Ease of Use</h3>
+                        <p class="text-muted">One page layout loads rapidly under all connections, and makes navigation simpler than ever.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons" style="color:green"></i>
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">As we expand our location database, receive instantaneous updates on your screen.</p>
+                    </div>
+                </div>
+                   <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons" style="color:green"></i>
+                        <h3>Saving the Environment</h3>
+                        <p class="text-muted">Eliminating the litter from trails makes the world a cleaner and healthier place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="static/UI/img/fremont_older2.jpg" class="portfolio-box">
+                        <img src="static/UI/img/fremont_older2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    11401 Stevens Canyon Rd, Cupertino
+                                </div>
+                                <div class="project-name">
+                                    Fremont Older Open Space Preserve
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="static/UI/img/montebello2.jpg" class="portfolio-box">
+                        <img src="static/UI/img/montebello2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    19480 Bear Creek Rd, Los Gatos
+                                </div>
+                                <div class="project-name">
+                                    Monte Bello Open Space Preserve
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="static/UI/img/pearson-arastradero2.jpg" class="portfolio-box">
+                        <img src="static/UI/img/pearson-arastradero2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    1530 Arastradero Rd, Palo Alto
+                                </div>
+                                <div class="project-name">
+                                    Pearson-Arastradero Preserve
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="static/UI/img/pichetti.jpg" class="portfolio-box">
+                        <img src="static/UI/img/pichetti.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    13100 Montebello Rd, Cupertino
+                                </div>
+                                <div class="project-name">
+                                    Pichetti Ranch Open Space Preserve
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="static/UI/img/rancho_san_antonio2.jpg" class="portfolio-box">
+                        <img src="static/UI/img/rancho_san_antonio2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    22500 Cristo Rey Dr, Cupertino
+                                </div>
+                                <div class="project-name">
+                                    Rancho San Antonio
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="static/UI/img/skyline2.jpg" class="portfolio-box">
+                        <img src="static/UI/img/skyline2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    330 Distel Cir, Los Altos
+                                </div>
+                                <div class="project-name">
+                                    Skyline Ridge Open Space Preserve
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+        <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 425px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var Rancho1 = {lat: 37.3328541, lng: -122.0892263};
+        var Rancho2 = {lat:37.3323572, lng: -122.0912677};
+        var Rancho3 = {lat:37.331436, lng: -122.095787};
+        var Rancho4 = {lat:37.332282, lng: -122.096883};
+        var Skyline1 = {lat:37.312621, lng: -122.177185};
+        var Skyline2 = {lat:37.312902, lng:-122.185761};
+        var Monte1 = {lat:37.318770, lng:-122.146453};
+        var Monte2 = {lat:37.318736, lng:-122.147233};
+        var Monte3 = {lat:37.325438, lng:-122.178533};
+        var Pichetti1 = {lat:37.294391, lng:-122.091090};
+        var Pichetti2 = {lat:37.294089, lng:-122.090483};
+        var Pichetti3 = {lat:37.294686, lng:-122.090471};
+        var Fremont1 = {lat:37.285347, lng:-122.059030};
+        var Fremont2 = {lat:37.285148, lng:-122.058325};
+        var Fremont3 = {lat:37.285689, lng:-122.057122};
+        var Pearson1 = {lat:37.387198, lng:-122.174059};
+        var Pearson2 = {lat:37.386679, lng:-122.180860};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: Rancho1
+        });
+        var r1 = new google.maps.Marker({
+          position: Rancho1,
+          map: map,
+        });
+        var r2 = new google.maps.Marker({
+            position: Rancho2,
+            map: map,
+        });
+         var r3 = new google.maps.Marker({
+            position: Rancho3,
+            map: map,
+        });
+          var r4 = new google.maps.Marker({
+            position: Rancho4,
+            map: map,
+        });
+           var s1 = new google.maps.Marker({
+            position: Skyline1,
+            map: map,
+        });
+            var s2 = new google.maps.Marker({
+            position: Skyline2,
+            map: map,
+        });
+            var m1 = new google.maps.Marker({
+            position: Monte1,
+            map: map,
+        });
+            var m2 = new google.maps.Marker({
+            position: Monte2,
+            map: map,
+        });
+            var m3 = new google.maps.Marker({
+            position: Monte3,
+            map: map,
+        });
+            var p1 = new google.maps.Marker({
+            position: Pichetti1,
+            map: map,
+        });
+            var p2 = new google.maps.Marker({
+            position: Pichetti2,
+            map: map,
+        });
+            var p3 = new google.maps.Marker({
+            position: Pichetti3,
+            map: map,
+        });
+            var f1 = new google.maps.Marker({
+            position: Fremont1,
+            map: map,
+        });
+            var f2 = new google.maps.Marker({
+            position: Fremont2,
+            map: map,
+        });
+            var f3 = new google.maps.Marker({
+            position: Fremont3,
+            map: map,
+        });
+             var pa1 = new google.maps.Marker({
+            position: Pearson1,
+            map: map,
+        });
+            var pa2 = new google.maps.Marker({
+            position: Pearson2,
+            map: map,
+        });
+      }
+    </script>
+    <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASZApUTlh-JBoNS3eg5CwsevrGW2DLOGc&libraries=places&callback=initMap">
+    </script>
+  </body>
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <hr class="primary">
+                    <p>Experiencing issues? Found a new location? Have another question? Feel free to shoot us an email!</p>
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">help.puretrails@gmail.com</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="static/UI/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/UI/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="static/UI/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="static/UI/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="static/UI/js/creative.min.js"></script>
+
+</body>
+
+</html>
